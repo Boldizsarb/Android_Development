@@ -1,0 +1,17 @@
+#1. 
+Add runtime permission checking to the basic Location example above, to turn it into a fully working app. To prevent too many Toasts appearing on top of each other, I would advise using a 5-second update interval for GPS, i.e.:
+mgr.requestLocationUpdates(LocationManager.GPS_PROVIDER,5000, 0f, this)
+#2. 
+Extend your map app from last week (Exercise 2) so that it requests GPS permission and, once permission is granted, it starts listening for GPS updates. When a GPS update is received, set the centre of the map to the current GPS position.
+3#. 
+3. Try the following to test it:
+    - Run the app. Grant the permission. Use the emulator controls to set the location. Does it work?
+    - Press the Back button on the app to quit it. Go to the settings and turn the permission off. Run the app again by clicking its icon on the device's home screen. It will ask you to grant the permission again. Deny it this time. Use the emulator controls to set the location. Now does it work?
+    - Press the Back button once more to quit the app, and try running it again by clicking its icon on the device's home screen. What happens now? --> All work 
+    
+#4. 
+Enhance the app so that when the GPS position is obtained, add a marker to the map at this position.
+#5.
+Find points of interest in your home town (such as pubs, churches, restaurants, sports grounds, etc) in your home town, and add markers to each. Test it out by setting the fake GPS position in the emulator to your home town.
+#6.
+Use different markers for different point of interest types. There are some sample markers here.
