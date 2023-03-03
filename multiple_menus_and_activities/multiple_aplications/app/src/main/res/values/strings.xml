@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">multiple_aplications</string>
+
+    <string name="selectmap">Select map style</string>
+    <string name="regularview">Regular View</string>
+    <string name="opentopomapview">"Open top map view "</string>
+    <string name="choosemap">Chose map</string>
+    <string name="addpremise">"Add location "</string>
+
+</resources>
