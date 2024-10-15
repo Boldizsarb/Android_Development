@@ -1,3 +1,3 @@
 # Android_Development
 
-![Alt text](pics\mobile.jpg )
+![Alt text](pics\mobile.jpg)
