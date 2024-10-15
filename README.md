@@ -1,3 +1,3 @@
 # Android_Development
 
-![Alt text](pics\mobile.jpg "Home Page")
+![Alt text](pics\mobile.jpg )
