@@ -8,3 +8,7 @@ Key features of the application include customizable preferences that allow user
 Data handling within the application involves JSON parsing for both GET and POST requests, ensuring efficient and accurate data processing.
 ![Alt text](pics/mobile4.jpg)
 ![Alt text](pics/search.jpg)
+The application utilized a backend architecture consistent across its components, with APIs developed in Node.js. It also featured a website that mirrored the application's functionality, allowing users to perform identical tasks by accessing the same database.
+![Alt text](pics/big.jpg)
+![Alt text](pics/big.png)
+[Link to the website in react](https://github.com/Boldizsarb/point_of_interest_react.git)
